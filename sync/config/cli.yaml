@@ -5,11 +5,11 @@
 
 # The name of the component.
 # helper.py will use this value to build directories in content/ and vault/.
-component: Pipelines
+component: CLI
 # The order of the component.
-displayOrder: 0
+displayOrder: 2
 # The GitHub repository where documentation resides.
-repository: https://github.com/tektoncd/pipeline
+repository: https://github.com/tektoncd/cli
 # The directory in the GitHub repository where contents reside.
 docDirectory: docs
 # The tags (versions) of contents to sync.
@@ -26,23 +26,10 @@ tags:
   # and the value is the new filename.
   files:
   - README.md: _index.md
-  - auth.md: auth.md
-  - conditions.md: conditions.md
-  - container-contract.md: container-contract.md
-  - labels.md: labels.md
-  - logs.md: logs.md
-  - migrating-from-knative-build.md: migrating-from-knative-build.md
-  - pipelineruns.md: pipelineruns.md
-  - pipelines.md: pipelines.md
-  - podtemplates.md: podtemplates.md
-  - resources.md: resources.md
-  - taskruns.md: taskruns.md
-  - tasks.md: tasks.md
-  - workspaces.md: workspaces.md
 # To add a new version, append to the list as below
 #- name: v0.8.2
 #  displayName: v0.8.x
 #  files:
 #  - myfiles.md: myfiles.md
 # The link to the GitHub tag page.
-archive: https://github.com/tektoncd/pipeline/tags
+archive: https://github.com/tektoncd/cli/tags

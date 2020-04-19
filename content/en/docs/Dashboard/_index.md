@@ -29,7 +29,7 @@ This installation is available through [Katacoda](https://katacoda.com/ncskier/s
 To install the latest release of Tekton Dashboard, run the command below:
 
 ```bash
-kubectl apply --filename https://github.com/tektoncd/dashboard/releases/latest/download/dashboard_latest_release.yaml
+kubectl apply --filename https://github.com/tektoncd/dashboard/releases/latest/download/tekton-dashboard-release.yaml
 ```
 {{% /tab %}}
 
@@ -37,7 +37,7 @@ kubectl apply --filename https://github.com/tektoncd/dashboard/releases/latest/d
 To install the latest release of Tekton Dashboard, run the command below:
 
 ```bash
-kubectl apply --filename https://github.com/tektoncd/dashboard/releases/latest/download/dashboard_latest_openshift-tekton-dashboard-release.yaml
+kubectl apply --filename https://github.com/tektoncd/dashboard/releases/latest/download/openshift-tekton-dashboard-release.yaml
 ```
 {{% /tab %}}
 
@@ -47,8 +47,8 @@ kubectl apply --filename https://github.com/tektoncd/dashboard/releases/latest/d
 The latest release **may not be compatible** with your Tekton Pipelines
 installation, should you have an earlier release of Tekton Pipelines
 installed. For more compatibility information, see the
-[Tekton Dashboard Releases](https://github.com/tektoncd/dashboard/releases)
-page.
+[Tekton Dashboard's "Which version should I use?"](https://github.com/tektoncd/dashboard#which-version-should-i-use)
+section.
 
 If you would like to install an earlier release of Tekton Dashboard
 for compatibility reasons, see the note below.
@@ -93,11 +93,11 @@ localhost:8080/api/v1/namespaces/tekton-pipelines/services/tekton-dashboard:http
 It is also possible to set up port forwarding with Tekton Dashboard:
 
 ```bash
-kubectl --namespace tekton-pipelines port-forward svc/tekton-dashboard 8080:8080
+kubectl --namespace tekton-pipelines port-forward svc/tekton-dashboard 9097:9097
 ```
 
 Once set up, the dashboard is available in the browser under the address
-`localhost:8080`.
+`localhost:9097`.
 
 ## What's next
 

@@ -67,7 +67,7 @@ in a Kubernetes cluster.
 ### Input and output resources
 
 Each **task** and **pipeline** may have its own inputs and outputs, known as
-input and output **resources** in Tekton. A compliation task, for example, may
+input and output **resources** in Tekton. A compilation task, for example, may
 have a git repository as input and a container image as output: the task
 clones the source code from the repository, runs some tests, and at last
 builds the source code into an executable container image.
@@ -88,11 +88,11 @@ in a Kubernetes cluster.
 
 ### TaskRuns and PipelineRuns
 
-A **pipelineRun**, as its name implies, is a specific exection of a **pipeline**.
+A **pipelineRun**, as its name implies, is a specific execution of a **pipeline**.
 For example, you may ask Tekton to run your CI/CD workflow twice a day, and
-each exection will become a **pipelineRun** resource trackable in your
+each execution will become a **pipelineRun** resource trackable in your
 Kubernetes cluster. You can view the status of your CI/CD workflow, including
-the specifics of each task exection with **pipelineRuns**.
+the specifics of each task execution with **pipelineRuns**.
 
 Similarly, a **taskRun** is a specific execution of a **task**. **TaskRuns**
 are also available when you choose to run a task outside a pipeline, with
