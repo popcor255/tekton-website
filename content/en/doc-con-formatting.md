@@ -6,7 +6,7 @@ weight: 2
 -->
 # Formatting Conventions for Tekton Documentation
 
-Tekton documentation uses Markdown to format the content. See the[Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+Tekton documentation uses Markdown to format the content. See the [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 to gain a basic understanding of Markdown conventions.
 
 ## User interface elements
