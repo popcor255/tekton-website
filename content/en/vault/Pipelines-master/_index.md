@@ -5,6 +5,8 @@ linkTitle: "Tasks and Pipelines"
 weight: 2
 description: >
   Building Blocks of Tekton CI/CD Workflow
+cascade:
+  github_project_repo: https://github.com/tektoncd/pipeline
 ---
 -->
 # Tekton Pipelines
@@ -37,12 +39,12 @@ Tekton Pipelines defines the following entities:
     <td>Defines a series of <code>Tasks</code> that accomplish a specific build or delivery goal. Can be triggered by an event or invoked from a <code>PipelineRun</code>.</td>
   </tr>
   <tr>
-    <td><code>PipelineResource</code></td>
-    <td>Defines locations for inputs ingested and outputs produced by the steps in <code>Tasks</code>.</td>
-  </tr>
-  <tr>
     <td><code>PipelineRun</code></td>
     <td>Instantiates a <code>Pipeline</code> for execution with specific inputs, outputs, and execution parameters.</td>
+  </tr>
+  <tr>
+    <td><code>PipelineResource</code></td>
+    <td>Defines locations for inputs ingested and outputs produced by the steps in <code>Tasks</code>.</td>
   </tr>
 </table>
 
@@ -55,17 +57,17 @@ To get started, complete the [Tekton Pipelines Tutorial](https://github.com/tekt
 
 See the following topics to learn how to use Tekton Pipelines in your project:
 
-- [Creating a Task](/docs/pipelines/tasks)
-- [Running a standalone Task](/docs/pipelines/taskruns)
-- [Creating a Pipeline](/docs/pipelines/pipelines)
-- [Running a Pipeline](/docs/pipelines/pipelineruns)
-- [Defining Workspaces](/docs/pipelines/workspaces)
-- [Creating PipelineResources](/docs/pipelines/resources)
-- [Configuring authentication](/docs/pipelines/auth)
-- [Using labels](/docs/pipelines/labels)
-- [Viewing logs](/docs/pipelines/logs)
-- [Pipelines metrics](/docs/pipelines/metrics)
-- [Variable Substitutions](/docs/pipelines/variables)
+- [Creating a Task](/vault/pipelines-master/tasks)
+- [Running a standalone Task](/vault/pipelines-master/taskruns)
+- [Creating a Pipeline](/vault/pipelines-master/pipelines)
+- [Running a Pipeline](/vault/pipelines-master/pipelineruns)
+- [Defining Workspaces](/vault/pipelines-master/workspaces)
+- [Creating PipelineResources](/vault/pipelines-master/resources)
+- [Configuring authentication](/vault/pipelines-master/auth)
+- [Using labels](/vault/pipelines-master/labels)
+- [Viewing logs](/vault/pipelines-master/logs)
+- [Pipelines metrics](/vault/pipelines-master/metrics)
+- [Variable Substitutions](/vault/pipelines-master/variables)
 
 ## Contributing to Tekton Pipelines
 

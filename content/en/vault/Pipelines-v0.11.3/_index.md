@@ -55,17 +55,17 @@ To get started, complete the [Tekton Pipelines Tutorial](https://github.com/tekt
 
 See the following topics to learn how to use Tekton Pipelines in your project:
 
-- [Creating a Task](/docs/pipelines/tasks)
-- [Running a standalone Task](/docs/pipelines/taskruns)
-- [Creating a Pipeline](/docs/pipelines/pipelines)
-- [Running a Pipeline](/docs/pipelines/pipelineruns)
-- [Defining Workspaces](/docs/pipelines/workspaces)
-- [Creating PipelineResources](/docs/pipelines/resources)
-- [Configuring authentication](/docs/pipelines/auth)
-- [Using labels](/docs/pipelines/labels)
-- [Viewing logs](/docs/pipelines/logs)
-- [Pipelines metrics](/docs/pipelines/metrics)
-- [Variable Substitutions](/docs/pipelines/variables)
+- [Creating a Task](/vault/pipelines-v0.11.3/tasks)
+- [Running a standalone Task](/vault/pipelines-v0.11.3/taskruns)
+- [Creating a Pipeline](/vault/pipelines-v0.11.3/pipelines)
+- [Running a Pipeline](/vault/pipelines-v0.11.3/pipelineruns)
+- [Defining Workspaces](/vault/pipelines-v0.11.3/workspaces)
+- [Creating PipelineResources](/vault/pipelines-v0.11.3/resources)
+- [Configuring authentication](/vault/pipelines-v0.11.3/auth)
+- [Using labels](/vault/pipelines-v0.11.3/labels)
+- [Viewing logs](/vault/pipelines-v0.11.3/logs)
+- [Pipelines metrics](/vault/pipelines-v0.11.3/metrics)
+- [Variable Substitutions](/vault/pipelines-v0.11.3/variables)
 
 ## Contributing to Tekton Pipelines
 
