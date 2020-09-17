@@ -163,7 +163,7 @@ def download_resources_to_project(yaml_list):
     ''' download the files based on a certain spec. The YAML sync spec can be found in sync/config/README.md'''
     for entry in yaml_list:
         directories = None
-        component = entry['component'].lower()
+        component = entry['component']
 
         for index, tag in enumerate(entry['tags']):
             # get the link for the item as well as the output dir
@@ -239,7 +239,6 @@ def sync(argv):
     config = yaml_files_to_list(config_files)
     # download resources
     download_resources_to_project(config)
-    ##### THESE FUNCTIONS ARE NOT GENERATING THE HTML/CSS/JS Correctly #####
     create_site_resources(JS_ASSET_DIR, "version-switcher.js", get_versions(config))
     create_site_resources(VAULT_DIR, "_index.md", get_versions(config))
     logging.info("Sync Complete")
